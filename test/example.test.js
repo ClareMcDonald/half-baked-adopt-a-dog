@@ -23,3 +23,18 @@ test('renderDogCard', (expect) => {
     // Make assertions about what is expected versus the actual result
     expect.equal(actual.outerHTML, expected);
 });
+
+
+test('renderDogDetail', (expect) => {
+    //Arrange
+    // Set up your arguments and expectations
+
+    const expected = 
+    //Act 
+    // Call the function you're testing and set the result to a const
+    const actual = 
+
+    //Expect
+    // Make assertions about what is expected versus the actual result
+    expect.equal(actual, expected);
+});
